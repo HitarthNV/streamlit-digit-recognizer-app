@@ -86,7 +86,7 @@ if st.button("Predict Digit"):
         # and reshape from (1,28,28,1) to (28,28) for PIL conversion.
         display_img_array = (img_model_input.reshape(28, 28) * 255).astype(np.uint8)
         display_pil_img = Image.fromarray(display_img_array)
-        st.image(display_pil_img, caption="What the CNN sees (28x28)", use_column_width=False, width=100)
+        st.image(display_pil_img, caption="What the CNN sees (28x28)",  width=100)
 
         # --- Display All Probabilities ---
         st.subheader("All Probabilities:")
