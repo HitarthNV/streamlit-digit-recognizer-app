@@ -2,5 +2,5 @@
 streamlit>=1.0.0
 numpy
 Pillow
-tensorflow==2.15.0 # Explicitly pin to a version compatible with Python 3.11/3.12
+tensorflow==2.18.0 # This is the exact version your model was saved with
 streamlit-drawable-canvas
