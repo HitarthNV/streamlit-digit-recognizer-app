@@ -101,4 +101,3 @@ if st.button("Predict Digit"):
         st.warning("Please draw a digit on the canvas first!")
 
 st.markdown("---")
-st.markdown("Developed by Gemini AI for educational purposes.")
