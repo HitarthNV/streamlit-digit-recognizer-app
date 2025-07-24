@@ -1,0 +1,6 @@
+streamlit>=1.0.0
+numpy
+Pillow
+tensorflow
+keras
+streamlit-drawable-canvas
