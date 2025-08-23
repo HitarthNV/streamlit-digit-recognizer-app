@@ -23,7 +23,7 @@ The application leverages a pre-trained Convolutional Neural Network (CNN) model
 2.  **Image Preprocessing:**
     * The RGBA image is converted to grayscale.
     * It's then resized to $28 \times 28$ pixels, the standard input size for the MNIST dataset.
-    * Pixel values are normalized to a $0-1$ range.
+    * Pixel values are normalized to a 0-1  range.
     * The image is reshaped to match the CNN's expected input format (batch size, height, width, channels).
 3.  **Model Prediction:** The preprocessed image is fed into the CNN model, which outputs a probability distribution over the 10 possible digits (0-9).
 4.  **Result Display:** The app identifies the digit with the highest probability as the prediction and displays its confidence, along with the probabilities for all other digits.
